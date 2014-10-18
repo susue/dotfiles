@@ -14,6 +14,21 @@ export PATH
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init -)"
 
+export HISTFILESIZE=10000
+export HISTSIZE=10000
+export HISTCONTROL=ignoreboth:erasedups
+export HISTIGNORE="ls:ls *:ll:ll *:cd:cd -:pwd"
+
+
+alias ls="ls -GAF"
+alias ll="ls -l"
+
+if [ $(uname) = "Linux" ]
+  alias ls="ls --color=auto -AF"
+fi
+
+shopt -s cdspell
+
 #!/usr/bin/env bash
  
 # Check that terminfo exists before changing TERM var to xterm-256color
