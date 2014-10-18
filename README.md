@@ -1,7 +1,7 @@
 dotfiles
 ========
 
-# https://speakerdeck.com/jmblog/hurontoendoenziniafalsetamefalse-dotfilesのhttp://git.io/ZzZuww設定ファイルについて
+### https://speakerdeck.com/jmblog/hurontoendoenziniafalsetamefalse-dotfilesの http://git.io/ZzZuww 設定ファイルについて
 
 - on master[+] addしたけどcommmitがまだ
 
