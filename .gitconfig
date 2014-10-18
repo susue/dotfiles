@@ -1,0 +1,9 @@
+[user]
+	name = susue
+	email = saeki.jb@gmail.com
+[alias]
+	co = checkout
+[core]
+	editor = vi
+[color]
+	ui = auto

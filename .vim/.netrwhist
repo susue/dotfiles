@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/vagrant/rails/taskapp/app/controllers'
+let g:netrw_dirhist_2='/home/vagrant/rails/taskapp/app'
+let g:netrw_dirhist_3='/home/vagrant/rails/taskapp/app/mailers'
+let g:netrw_dirhist_4='/home/vagrant/rails/taskapp/app'
