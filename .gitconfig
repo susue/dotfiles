@@ -1,9 +1,29 @@
 [user]
 	name = susue
 	email = saeki.jb@gmail.com
-[alias]
-	co = checkout
-[core]
-	editor = vi
 [color]
-	ui = auto
+	diff = auto
+	status = auto
+	branch = auto
+	grep = auto
+[core]
+	excludesfile = /Users/saeki/.gitignore
+[filter "lfs"]
+	clean = git-lfs clean %f
+	smudge = git-lfs smudge %f
+	required = true
+[push]
+	default = matching
+[difftool "sourcetree"]
+	cmd = opendiff \"$LOCAL\" \"$REMOTE\"
+	path = 
+[mergetool "sourcetree"]
+	cmd = /opt/homebrew-cask/Caskroom/sourcetree/2.0.5.2/SourceTree.app/Contents/Resources/opendiff-w.sh \"$LOCAL\" \"$REMOTE\" -ancestor \"$BASE\" -merge \"$MERGED\"
+	trustExitCode = true
+[alias]
+	st = status
+	co = checkout
+	br = branch
+	l = log
+[gui]
+	recentrepo = /Users/saeki/newrepo
