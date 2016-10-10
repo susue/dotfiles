@@ -5,6 +5,11 @@ set shiftwidth=2
 set expandtab
 set backspace=indent,eol,start
 set ruler
+set noswapfile
+set nobackup
+set cursorline
+set showmatch
+set wrapscan
 
 syntax on
 filetype plugin indent off
