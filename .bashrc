@@ -13,3 +13,4 @@ export PATH="/Applications/MAMP/bin/php/php5.6.10/bin:$PATH"
 export PGDATA=/usr/local/var/postgres
 alias jk='open http://127.0.0.1:4000/; cd /Jekyll/install/dir/; jekyll serve'
 export PATH=$HOME/.nodebrew/current/bin:$PATH
+source ~/.git-completion.bash
